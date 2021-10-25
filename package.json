@@ -1,0 +1,38 @@
+{
+  "name": "react-native-zoomable-image",
+  "version": "1.0.0-test",
+  "description": "An animated React Native Image to provide instagram zoom image",
+  "author": "Mohammad Aghajani <mohammad-aghajani@outlook.com>",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-native",
+    "instagram image",
+    "instagram zoom",
+    "typescript",
+    "react native zoom image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohamad-aqajani/react-native-zoomable-image.git"
+  },
+  "scripts": {
+    
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.0",
+    "react-native-gesture-handler": ">= 1.0.0",
+    "react-native-reanimated": ">= 1.0.0"
+  },
+  "devDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "prettier": "2.2.1",
+    "typescript": "4.2.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.3"
+  }
+}
