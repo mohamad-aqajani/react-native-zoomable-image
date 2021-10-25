@@ -72,7 +72,6 @@ const ZoomableImage: React.FC<ZoomableImageProps> = ({
   const AnimatedStyle = useAnimatedStyle<ImageStyle>(() => {
     return {
       transform: [
-        {translateX: translateX.value},
         {translateY: translateY.value},
         {translateX: focalX.value},
         {translateY: focalY.value},
@@ -83,6 +82,8 @@ const ZoomableImage: React.FC<ZoomableImageProps> = ({
         {translateY: -focalY.value},
         {translateX: width / 2},
         {translateY: height / 2},
+        {translateX: translateX.value},
+
       ],
     };
   }, []);
